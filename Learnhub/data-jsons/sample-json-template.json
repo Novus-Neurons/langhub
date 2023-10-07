@@ -1,0 +1,60 @@
+{
+    "language": "<text_string>",
+    "languagedesc": "<text_string> <50-60-words>",
+    "expandedview": {
+        "total_number_of_words": "<number>",
+        "total_number_of_sentences": "<number>",
+        "words": [
+            {
+                "word": "<text_string>",
+                "details": {
+                    "meaning": "<text_string> -- Explanation and information about the word or sentence. some text in english or any other language which can be 30-50 words long.",
+                    "Synonyms": [
+                        "text",
+                        "text",
+                        "text"
+                    ],
+                    "other_information": "text"
+                }
+            },
+            {
+                "word": "",
+                "details": {
+                    "meaning": "",
+                    "Synonyms": [
+                        "text",
+                        "text",
+                        "text"
+                    ],
+                    "other_information": "text"
+                }
+            }
+        ],
+        "sentences": [
+            {
+                "sentence": "<text_string>",
+                "details": {
+                    "meaning": "<text_string> -- Explanation and information about the word or sentence. some text in english or any other language which can be 30-50 words long.",
+                    "in_other_languages": {
+                        "labguage1_name": "<text_string>",
+                        "labguage2_name": "<text_string>",
+                        "labguage3_name": "<text_string>"
+                    },
+                    "other_information": "text"
+                }
+            },
+            {
+                "sentence": "<text_string>",
+                "details": {
+                    "meaning": "<text_string> -- Explanation and information about the word or sentence. some text in english or any other language which can be 30-50 words long.",
+                    "in_other_languages": {
+                        "labguage1_name": "<text_string>",
+                        "labguage2_name": "<text_string>",
+                        "labguage3_name": "<text_string>"
+                    },
+                    "other_information": "text"
+                }
+            }
+        ]
+    }
+}

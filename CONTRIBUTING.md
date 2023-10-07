@@ -1,4 +1,4 @@
-# Contributing to Language Learning Flashcards
+# Contributing to langhub
 
 Thank you for your interest in contributing to the Language Learning Flashcards project. Your contributions help make language learning more accessible and enjoyable for everyone. Below are the guidelines and instructions for contributing to this project.
 
@@ -37,11 +37,13 @@ If you want to contribute to the website's frontend development:
 2. Clone your forked repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/language-learning-flashcards.git```
+   git clone https://github.com/Novus-Neurons/langhub.git
+   cd Learnhub
+   ```
 3. Create a new branch for your contribution:
 
     ```bash
-        git checkout -b feature/your-feature-name
+        git checkout -b language/your-language-name
     ```
 4. Commit your changes with clear and concise commit messages:
 
@@ -50,7 +52,7 @@ If you want to contribute to the website's frontend development:
     ```
 5. Push your changes to your GitHub repository:
     ```bash
-        git push origin feature/your-feature-name
+        git push origin language/your-language-name
     ```
 6. create a pull request with hacktober fest tag
     **hacktoberfest**, 

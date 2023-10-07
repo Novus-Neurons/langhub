@@ -2,6 +2,8 @@
 
 Welcome to the Language Learning Flashcards project! This open-source web application aims to promote the learning of different languages by providing a collection of flashcards containing sentences and words from various languages.
 
+![preview](./designs/landingPage.png)
+
 ## Project Overview
 
 - **Project Objective:** To create a platform that helps users learn different languages through flashcards.

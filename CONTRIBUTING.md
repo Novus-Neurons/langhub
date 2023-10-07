@@ -22,6 +22,8 @@ If you want to contribute to the website's frontend development:
 
 3. If you have a new design idea, create a pull request for the design first before proceeding with development. Alternatively, you can contact the repository owners to discuss your design concept.
 
+4. [figma](https://www.figma.com/file/Ytjhr2hushiuM5ZblRWjrz/NN_Hacktober?type=design&node-id=0%3A1&mode=design&t=svBHSaUF1Zl1HTGw-1)
+
 ## Design Specifications
 
 - The design of the website should prioritize user-friendliness and accessibility.

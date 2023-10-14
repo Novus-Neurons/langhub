@@ -52,10 +52,124 @@ If you want to contribute to the website's frontend development:
     ```bash
         git commit -m "Add new content for <LANGUAGE_NAME>."
     ```
-5. Push your changes to your GitHub repository:
+
+5. pull the origin 
+    ```bash
+        git pull origin main
+        git merge main
+    ```
+    resolve all the conflicts 
+
+6. Push your changes to your GitHub repository:
     ```bash
         git push origin language/your-language-name
     ```
-6. create a pull request with hacktober fest tag
+7. create a pull request with hacktober fest tag
     **hacktoberfest**, 
     **hacktoberfest-accepted**
+
+### Contributions through JSON
+
+1. navigate to "langhub/language-card-details" folder
+
+2. create a new .json file
+    - file name should be in "ALL_CAPITAL"
+    - with expension ".json"
+
+3. copy the whole code from "langhub/language-card-details/sample-json-template.json" into your newly created file 
+    ```json
+    {
+        "language": "<text_string>",
+        "languagedesc": "<text_string> <50-60-words>",
+        "expandedview": {
+            "total_number_of_words": "<number>",
+            "total_number_of_sentences": "<number>",
+            "words": [
+                {
+                    "word": "<text_string>",
+                    "details": {
+                        "meaning": "<text_string> -- Explanation and information about the word or sentence. some text in english or any other language which can be 30-50 words long.",
+                        "Synonyms": [
+                            "text",
+                            "text",
+                            "text"
+                        ],
+                        "other_information": "text"
+                    }
+                },
+                {
+                    "word": "",
+                    "details": {
+                        "meaning": "",
+                        "Synonyms": [
+                            "text",
+                            "text",
+                            "text"
+                        ],
+                        "other_information": "text"
+                    }
+                }
+            ],
+            "sentences": [
+                {
+                    "sentence": "<text_string>",
+                    "details": {
+                        "meaning": "<text_string> -- Explanation and information about the word or sentence. some text in english or any other language which can be 30-50 words long.",
+                        "in_other_languages": {
+                            "labguage1_name": "<text_string>",
+                            "labguage2_name": "<text_string>",
+                            "labguage3_name": "<text_string>"
+                        },
+                        "other_information": "text"
+                    }
+                },
+                {
+                    "sentence": "<text_string>",
+                    "details": {
+                        "meaning": "<text_string> -- Explanation and information about the word or sentence. some text in english or any other language which can be 30-50 words long.",
+                        "in_other_languages": {
+                            "labguage1_name": "<text_string>",
+                            "labguage2_name": "<text_string>",
+                            "labguage3_name": "<text_string>"
+                        },
+                        "other_information": "text"
+                    }
+                }
+            ]
+        }
+    }
+    ```
+
+4. make the changes accordingly 
+    - take care of data types 
+    - strings in double quotes and in single like without any "Enter" or 
+    - numbers without quotes
+    - add commas when dealing with objects and arrays
+
+5. add your file to "/langhub/cards.json"
+    ```json
+        {
+            "number_of_language_cards":1,
+            "card_paths": [
+                "/language-card-details/MARATHI.json"
+            ]
+        }
+    ```
+
+
+### Contributions to Frontend
+
+#### if you want to create a new design 
+
+1. create a new folder for your design
+
+2. make your contribution
+
+3. link your design to global "/index.html" 
+    - Adding a button to redirect to your design.  
+
+#### if you want to contribute to existing design 
+
+1. create a new component i.e. a .html file in "/langhub/components" folder
+
+2. add this component to the index page by makes appropriate changes in "/langhub/index.js" file

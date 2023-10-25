@@ -1,6 +1,7 @@
 {
-    "number_of_language_cards":1,
+    "number_of_language_cards":2,
     "card_paths": [
-        "/language-card-details/MARATHI.json"
+        "/language-card-details/MARATHI.json",
+        "/language-card-details/MARATHI_ENGLISH.json"
     ]
 }

@@ -1,0 +1,21 @@
+{
+    "language": "About Spanish",
+    "languagedesc": "Spanish is one of the world's most widely spoken languages, with over 460 million native speakers.",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "Siesta",
+                "details": {
+                    "meaning": "Siesta refers to a short nap taken in the early afternoon, especially in Spain and other Spanish-speaking countries.",
+                    "Synonyms": [
+                        "Afternoon nap",
+                        "Midday rest"
+                    ],
+                    "other_information": "The tradition of the siesta is deeply ingrained in Spanish culture."
+                }
+            }
+        ]
+    }
+}

@@ -9,6 +9,7 @@
         "/language-card-details/MARATHI_ENGLISH.json",
         "/language-card-details/MARATHI.json",
         "/language-card-details/sample-json-template.json",
-        "/language-card-details/ABOUT_TELUGU.json"
+        "/language-card-details/ABOUT_TELUGU.json",
+        "/language-card-details/ABOUT_TAMIL.json"
     ]
 }

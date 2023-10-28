@@ -1,0 +1,24 @@
+{
+    "language": "SANSKRIT",
+    "languagedesc": "Sanskrit is an ancient and highly structured Indo-Aryan language with a profound influence on Indian culture and religion.",
+   "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "पुस्तकानि",
+                "details": {
+                    "meaning": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+                    "Synonyms": [
+                        "volume",
+                        "publication"
+                        
+                    ],
+                    "other_information": ""
+                }
+            }
+           
+        ]
+        
+    }
+}

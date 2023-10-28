@@ -1,0 +1,23 @@
+{
+    "language": "About Telugu",
+    "languagedesc": "Tamil, one of the world's oldest and most vibrant Dravidian languages, boasts a rich cultural heritage and a unique script that has captivated the hearts of millions for millennia.",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "திரைப்படம்",
+                "details": {
+                    "meaning": "movie",
+                    "Synonyms": [
+                        "film",
+                        "picture"                        
+                    ],
+                    "other_information": ""
+                }
+            }
+           
+        ]
+        
+    }
+}

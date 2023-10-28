@@ -1,0 +1,23 @@
+{
+    "language": "About Telugu",
+    "languagedesc": "Telugu language - a prominent language in South India, known for its extensive usage and rich linguistic heritage.",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "సమాచారం",
+                "details": {
+                    "meaning": "information",
+                    "Synonyms": [
+                        "facts",
+                        "knowledge"                        
+                    ],
+                    "other_information": ""
+                }
+            }
+           
+        ]
+        
+    }
+}

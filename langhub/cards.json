@@ -12,6 +12,7 @@
         "/language-card-details/ABOUT_TELUGU.json",
         "/language-card-details/ABOUT_TAMIL.json",
         "/language-card-details/ABOUT_SANSKRIT.json",
-        "/language-card-details/ABOUT_JAPANESE.json"
+        "/language-card-details/ABOUT_JAPANESE.json",
+        "/language-card-details/ABOUT_LATIN.json"
     ]
 }

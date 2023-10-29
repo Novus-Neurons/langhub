@@ -1,0 +1,21 @@
+{
+    "language": "JAPANESE",
+    "languagedesc": "Japanese is a modern East Asian language with a rich cultural heritage and a writing system composed of kanji, hiragana, and katakana.",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "本",
+                "details": {
+                    "meaning": "a written or printed work consisting of pages bound together, often with a protective cover.",
+                    "Synonyms": [
+                        "書籍",
+                        "出版物"
+                    ],
+                    "other_information": "In Japanese culture, books hold significant importance and are highly regarded."
+                }
+            }
+        ]
+    }
+}

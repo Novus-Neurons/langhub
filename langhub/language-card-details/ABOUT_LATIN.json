@@ -1,0 +1,21 @@
+{
+    "language": "Latin",
+    "languagedesc": "Latin is a classical language that was widely used in ancient Rome. It has had a significant influence on the development of many modern languages.",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "liber",
+                "details": {
+                    "meaning": "a written or printed work consisting of pages glued or sewn together along one side and bound in covers.",
+                    "Synonyms": [
+                        "volumen",
+                        "opuscule"
+                    ],
+                    "other_information": "The word 'liber' can also refer to a tree bark used for writing in ancient times."
+                }
+            }
+        ]
+    }
+}

@@ -7,114 +7,105 @@
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular';
 }
 
-body {
-    background: #ECECFF;
-    text-align: center;
-    color: #212121;
+:root{
+    --bg-color: #f5f5f5; 
+    --off-30: blue;
+    --primary: #4c8bf5; 
+}
+body{
+    background-color: var(--bg-color);
+    
 }
 
-#main::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    z-index: -1;
-    background: radial-gradient(92.82% 58.5% at 65.55% 44.29%, rgba(188, 208, 248, 0.50) 0%, rgba(255, 252, 252, 0.85) 100%), #F2F9F4;
-}
-
-nav a {
-    all: unset;
-    cursor: pointer;
-}
-
-nav {
+.flex-row, .flex-column{
     display: flex;
-    width: 94%;
-    border-radius: 25px;
-    background: #3094AA;
     align-items: center;
     justify-content: space-between;
-    padding: 0.1em 2em;
-    margin-inline: auto;
-    margin-top: 1em;
+}
+.flex-column{
+    flex-direction: column;
+}
+nav {
+    padding: 4px 4px;
+    width: 100%;
+    position: fixed; 
+    background-color: var(--bg-color);
+    border-bottom: 1px solid var(--primary);
+
+    box-shadow: 0px 4px 20px #4c8bf599;
+
+    z-index: 1000;
 }
 
-nav .logo-container>img {
-    width: 100%;
+#nnImg, #gitImg{
+    height: 48px;
     aspect-ratio: 1;
 }
 
-nav .logo-container {
-    display: flex;
-    font-size: 1.5em;
-    align-items: center;
-    gap: 1em;
-    color: white;
-    height: 5em;
-    aspect-ratio: 1;
+.logo-container{
+    gap: 12px; 
+    color: var(--primary)
 }
 
-nav .search-container {
-    width: min(40%, 450px);
+#search{
+    border-radius: 9999px;
+    border: 1px solid var(--primary); 
+    padding: 12px 12px;
+
 }
 
-nav .search-container input {
-    all: unset;
-    width: 100%;
-    padding: 0.6em 0.8em;
-    border-radius: 30px;
-    background: #FBFBFF;
-}
-
-nav .githubIcon {
-    height: 75%;
-}
-
-
-#Allcards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-    justify-content: start;
-    gap: 1em;
-    margin-top: max(50px, 3%);
-    width: min(95vw, 1600px);
-    margin-inline: auto;
-}
-
-.card:hover {
-    box-shadow: 6px 0.55px 18px -3px rgba(101, 101, 101, 0.608);
+.card h3{
+    text-decoration: dotted;
+    text-transform: uppercase;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    width: min(80vw, 45%);
-    max-width: fit-content;
-    min-width: min(85%, 350px);
-    margin-inline: auto;
-    padding: 2em;
-    border-radius: 12px;
-    border: 1px solid rgba(34, 34, 34, 0.25);
-    background: #FFF;
-    gap: 1em;
-    transition: 0.5s;
-    cursor: pointer;
-}
+    background-color: var(--bg-color);
+    margin: 4px 4px; 
+    padding: 8px 8px; 
+    gap: 12px; 
+    width: 80%;
 
-.card p {
-    width: 95%;
-    margin: auto;
+    min-height: 158px;
+
+    border-radius: 12px;
+    border: 1px solid var(--primary);
+    
+    transition: 0.3s ease-in-out;
+
+}
+.card:hover{
+    background-color: var(--primary);
+    transform: scaleX(1.05);
+    color: var(--bg-color); 
+    box-shadow: 0px 4px 16px  var(--primary);
+}
+.card p{
     opacity: 0.6;
 }
+#Allcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 32px; 
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 
-@media only screen and (max-width : 520px) {
 
-    nav .search-container {
-        display: none;
+@media only screen and (min-width: 768px) {
+    .card{
+        width: 20%;
     }
 
+    nav{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #search{
+        min-width: 512px;
+    }
 }

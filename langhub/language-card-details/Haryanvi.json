@@ -1,0 +1,21 @@
+{
+    "language": "हरयाणवी",
+    "languagedesc": "हरयाणवी एक प्राचीन भाषा है जो हरियाणा राज्य के लोगों के बोलचाल में आती है।",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "खेत",
+                "details": {
+                    "meaning": "खेत, जहां किसान फसलें उगाते हैं।",
+                    "Synonyms": [
+                        "कृषि",
+                        "क्षेत्र"
+                    ],
+                    "other_information": ""
+                }
+            }
+        ]
+    }
+}

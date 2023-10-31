@@ -1,0 +1,24 @@
+{
+    "language": "About English",
+    "languagedesc": "English is a globally dominant language, spoken by over 1.5 billion people",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "Serendipity",
+                "details": {
+                    "meaning": "Serendipity refers to the pleasant and unexpected discovery of something valuable or delightful, often by chance or acciden",
+                    "Synonyms": [
+                        "Chance discovery",
+                        "Fortuity"
+                        
+                    ],
+                    "other_information": "The term serendipity originates from a Persian fairy tale"
+                }
+            }
+           
+        ]
+        
+    }
+}

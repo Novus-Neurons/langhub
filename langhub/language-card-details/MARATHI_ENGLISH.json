@@ -1,0 +1,25 @@
+{
+    "language": "MARATHI ENGLISH",
+    "languagedesc": "Converting marathi to english",
+   "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "प्रेम",
+                "details": {
+                    "meaning": "LOVE",
+                    "Synonyms": [
+                        "respect",
+                        "like"
+                    
+                        
+                    ],
+                    "other_information": "Love is word that every one use to express there feeling"
+                }
+            }
+           
+        ]
+        
+    }
+}

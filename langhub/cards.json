@@ -1,0 +1,21 @@
+{
+    "number_of_language_cards": 7,
+    "card_paths": [
+        "/language-card-details/ABOUT_ENGLISH.json",
+        "/language-card-details/ABOUT_HINDI.json",
+        "/language-card-details/About_Kannada.json",
+        "/language-card-details/ABOUT_SPANISH.json",
+        "/language-card-details/HINDI.json",
+        "/language-card-details/MARATHI_ENGLISH.json",
+        "/language-card-details/MARATHI.json",
+        "/language-card-details/ABOUT_TELUGU.json",
+        "/language-card-details/ABOUT_TAMIL.json",
+        "/language-card-details/ABOUT_SANSKRIT.json",
+        "/language-card-details/ABOUT_JAPANESE.json",
+        "/language-card-details/ABOUT_LATIN.json",
+        "/language-card-details/Gujrati.json",
+        "/language-card-details/Marwadi.json",
+        "/language-card-details/Haryanvi.json",
+        "/language-card-details/Awadhi.json"
+    ]
+}

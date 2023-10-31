@@ -1,0 +1,21 @@
+{
+    "language": "अवधी",
+    "languagedesc": "अवधी एक प्राचीन भाषा है जिसका उपयोग उत्तर प्रदेश के कई हिस्सों में किया जाता है।",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "बरजार",
+                "details": {
+                    "meaning": "एक जगह जहां बाजार और व्यापार कार्य होते हैं।",
+                    "Synonyms": [
+                        "बाजार",
+                        "मंडी"
+                    ],
+                    "other_information": ""
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "language": "मारवड़ी",
+    "languagedesc": "मारवड़ी एक भाषा है जिसका मारवड़ी बोलने वाले लोगों के जीवन में महत्वपूर्ण स्थान है।",
+    "expandedview": {
+        "total_number_of_words": "1",
+        "total_number_of_sentences": "0",
+        "words": [
+            {
+                "word": "धन",
+                "details": {
+                    "meaning": "संपत्ति, माल, या धनदारी.",
+                    "Synonyms": [
+                        "संपत्ति",
+                        "धनदारी"
+                    ],
+                    "other_information": ""
+                }
+            }
+        ]
+    }
+}
